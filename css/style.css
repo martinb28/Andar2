@@ -43,6 +43,46 @@ footer {
 
 /*css encabezado*/
 
+.header {
+	overflow: hidden;
+	background-color: #68A49C;
+	margin: 0;
+  }
+  
+  .header a {
+	float: left;
+	text-decoration: none;
+	display: block;
+ } 
+  
+    
+  .header-right a:hover {
+	background:#54aa9f;
+	text-decoration: none;
+	color: whitesmoke;
+  }
+     
+  .header-right a{
+	float: left;
+	text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 25px 25px;
+    display: block;
+	font-family: 'Carlito';
+}
+  
+  @media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	
+	.header-right {
+	  float: none;
+	}
+  }
 
 /* fin css encabezado*/
 
@@ -54,6 +94,7 @@ h1, h2 {
 
 p {
 	font-family: 'Tahoma', cursive;
+	text-align: center;
 }
 
 h4 {
@@ -67,12 +108,12 @@ h4 {
 /*redes */
 .red__bordesRedondeados{
 	border-radius: 50px;
-	}
+}
 
 .red__bordesRedondeados:hover{
 		border-radius: 50px;
 		transform: scale(1.2);
-		}
+}
 /* fin redes*/
 
 /*imagenes */
@@ -203,54 +244,3 @@ div.gallery {
 }
 
 /*fin contactos*/
-
-
-
-/*header prueba*/
-.header {
-	overflow: hidden;
-	background-color: #68A49C;
-	margin: 0;
-  }
-  
-  .header a {
-	float: left;
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-    color: whitesmoke;
-    /*padding: 25px;*/
-    display: block;
-	font-family: 'Carlito'
-  } 
-  
-    
-  .header-right a:hover {
-	background:#54aa9f;
-	text-decoration: none;
-	color: whitesmoke;
-  }
-     
-  .header-right a{
-	float: right;
-	text-decoration: none;
-    font-size: 20px;
-    color: whitesmoke;
-    padding: 25px 25px;
-    display: block;
-	font-family: 'Carlito';
-  }
-  
-  @media screen and (max-width: 500px) {
-	.header a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-	
-	.header-right {
-	  float: none;
-	}
-  }
-
-/*fin header prueba*/
