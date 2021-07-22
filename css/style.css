@@ -69,7 +69,11 @@ footer {
     color: whitesmoke;
     padding: 25px 25px;
     display: block;
-	font-family: 'Carlito';
+	font-family: 'Carlito';	
+}
+
+.header-right{
+	float: right;
 }
   
   @media screen and (max-width: 500px) {
