@@ -34,15 +34,28 @@
 
   <body>
     <header>
-      <div class="header">
-        <a href="index.html" class="logo"> <img src="Imagenes/andar.jpg" alt="logo"  > </a>
-            <nav class="header-right">
-              <a href="especializaciones.html">Especializaciones</a>
-              <a href="nosotros.html">Nosotros</a></li>
-              <a href="instalaciones.html">Instalaciones</a>
-              <a href="contacto.html">Contacto</a>
-            </nav>
-      </div>            
+      <div class="nave">
+        <input type="checkbox" id="nave-check">
+        <div class="nave-header">
+          <div class="nave-title">
+            <a href="index.html"> <img src="Imagenes/andar.jpg" alt="logo"> </a> 
+          </div>
+        </div>
+        <div class="nave-btn">
+          <label for="nave-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nave-links">
+            <a href="especializaciones.html">Especializaciones</a>
+            <a href="nosotros.html">Nosotros</a></li>
+            <a href="instalaciones.html">Instalaciones</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+      </div>         
     </header>
     <main>
       <div class="grid__container">
@@ -80,14 +93,14 @@
 
               <textarea class="textArea__mensaje">Detallanos tu consulta</textarea>
 
-              <h4>Selecciona la especialidad</h4>
+              <h5>Selecciona la especialidad</h5>
                 <select name="especialidad">
                   <option value="fisioterapia">Fisioterapia</option>
                   <option value="gimnasio">Gimnasio</option>
                   <option value="consultaGeneral">Consulta General</option>
                 </select>
 
-              <h4>¿Ya eres paciente?</h4>
+              <h5>¿Ya eres paciente?</h5>
               <label>Si</label>
               <input type="radio" name="paciente" value="si" />
               <label>No</label>
@@ -101,7 +114,7 @@
       </div>
     </main>
     <!--pie de la pagina con links a redes sociales, redes sociales no disponibles aun-->
-    <footer class="footerExtended">
+    <footer>
       <a href="https://www.facebook.com" target="_blank">
         <img
           src="Imagenes\facebook.png"

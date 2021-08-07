@@ -1,34 +1,45 @@
 /* Inicio Header*/
-.header {
-	overflow: hidden;
-	background-color: #68A49C;
+.nave {
+  overflow: hidden;
+  background-color: #68A49C;
   margin: 0;
-	
+  padding: 0;
+}
+ 
+.nave > .nave-header {
+  float: left;
+text-decoration: none;
+display: block;
+}
 
-    a{
-      float: left;
-      text-decoration: none;
-	    display: block;
-    }
-  }
+.nave > .nave-header > .nave-title {
+  display: block;
+  text-decoration: none;
+}
 
+.nave > .nave-links {
+  float: right;
+}
+ 
+.nave > .nave-links > a {
+  float: left;
+text-decoration: none;
+font-size: 20px;
+color: whitesmoke;
+padding: 25px 25px;
+display: block;
+font-family: "Carlito";
+}
+ 
+.nave > .nave-links > a:hover {
+  background: #56bdaf;
+text-decoration: none;
+color: whitesmoke;
+}
 
-  .header-right{
-	float: right;
-    a{
-        float: left;
-        text-decoration: none;
-        font-size: 20px;
-        color: whitesmoke;
-        padding: 25px 25px;
-        display: block;
-        font-family: 'Carlito';	
-        &:hover{
-            background:rgb(86, 189, 175);
-            text-decoration: none;
-            color: whitesmoke;
-        }
-    }
-  }
+.nave > .nave-btn,
+.nave > #nave-check {
+display: none;
+}
 
 /* fin Header*/
